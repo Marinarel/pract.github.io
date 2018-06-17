@@ -1,0 +1,110 @@
+
+
+body {
+	background-color: #F5FFFA;
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+/* header */
+
+header {
+	background-color: #A9A9A9;
+}
+
+header form {
+	float: right;
+}
+
+header form input,
+button {
+	height: 30px;
+	margin-top: 3px;
+}
+
+#mysearch {
+	float: right;
+	margin-top: 3px;
+}
+
+
+/* end header */
+
+h1 {
+	text-align: center;
+	font-size: 45px;
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+
+/* navigacija */
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 20px;
+	border: 2px solid black;
+	border-radius: 25%;
+	background: #A9A9A9;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+/* container */
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #A9A9A9;
+}
+
+.container article h2,
+p {
+	padding: 10px 25px;
+	text-align: center;
+}
+
+#cover {
+	width: 60%;
+	margin-left: 190px;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #A9A9A9;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media(max-width: 768px) {
+	header form input,
+	button {
+		width: 100%;
+	}
+	header svg {
+		width: 100%;
+	}
+	nav {
+		width: 100%;
+	}
+	nav li {
+		padding: 0;
+	}
+	#cover {
+		width: 45%;
+		height: auto;
+		margin-left: 5px;
+	}
+}
+
